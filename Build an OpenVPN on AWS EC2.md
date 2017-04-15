@@ -1,5 +1,5 @@
 This is a memo how to setup OpenVPN on Amazon EC2.
-Platform: Ubuntu 16.0.2 LTS
+Platform: Ubuntu 16.04.2 LTS
 Traditional Chinese(繁體中文)may refer to my Blog article below when I try to set AWS account first time.
 Any suggestion is welcomed, please let me know.
 My blog article: https://www.next-lab.ml/2017/04/open-source-amazon-web-serviceopenvpn.html
@@ -44,7 +44,9 @@ Rock'n'Roll
 
 Getting Started with Amazon EC2
 https://aws.amazon.com/ec2/getting-started/
+
 OpenVPN HOWTO
 https://openvpn.net/index.php/open-source/documentation/howto.html#security
+
 AWS上架設私人的OpenVPN
 https://mackung.blogspot.tw/2012/11/amazon-web-service-openvpn.html
