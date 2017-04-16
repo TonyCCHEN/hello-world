@@ -18,3 +18,9 @@ while [  1 ]; do
 done
 
 #Above shell script was copied from Internet that someone shared for Linux platform and works to me. Share it to others
+
+
+(sh was saved as the /home/user/.earthwallpaper/charger.sh)
+
+After thn, try to use "crontab -e" run your shell once startup 
+#Refer: https://unix.stackexchange.com/questions/264544/how-to-run-a-shell-script-using-cron-and-at
