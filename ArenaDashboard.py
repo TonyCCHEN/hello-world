@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import yfinance as yf
 
-# ==============================
+# V2 Dashboard(ChatGPT)=========
 # App Config
 # ==============================
 st.set_page_config(
@@ -21,9 +21,8 @@ TOLERANCE = 1
 # ==============================
 data = [
     # ---------- Gemini ----------
-    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": None,      "Shares": 198,   "Cost": 198},
-    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 24,    "Cost": 40320},
-    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2313.TW", "Shares": 519,   "Cost": 59483},
+    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": None,      "Shares": 400850,   "Cost": 400850},
+    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 35,    "Cost": 59150},
 
     # ---------- Grok ----------
     {"Trader": "Grok", "AssetType": "Cash",  "Ticker": None,      "Shares": 2142, "Cost": 2142},
