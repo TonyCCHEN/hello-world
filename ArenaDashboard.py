@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🧑‍⚖️ Portfolio Referee Tony's Dashboard (v2)")
+st.title("🧑‍⚖️ AI ARENA since (2026/01/11) Referee Tony Dashboard")
 st.info("📜 Rule: Each team must start with exactly 100,000 TWD (±1 TWD rounding tolerance).")
 
 STARTING_CAPITAL = 100_000
