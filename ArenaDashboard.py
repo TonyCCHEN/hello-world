@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🧑‍⚖️ Portfolio Referee Dashboard (v2)")
+st.title("🧑‍⚖️ Portfolio Referee Tony's Dashboard (v2)")
 st.info("📜 Rule: Each team must start with exactly 100,000 TWD (±1 TWD rounding tolerance).")
 
 STARTING_CAPITAL = 100_000
@@ -32,9 +32,10 @@ data = [
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 19,   "Cost": 19285},
 
     # ---------- Deepseek ----------
-    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": None,      "Shares": 68650, "Cost": 68650},
+    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": None,      "Shares": 57275, "Cost": 57275},
     {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 10,    "Cost": 16900},
     {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2454.TW", "Shares": 10,    "Cost": 14450},
+    {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2317.TW", "Shares": 50,    "Cost": 11375},
 ]
 
 df = pd.DataFrame(data)
