@@ -22,7 +22,6 @@ TOLERANCE = 1
 data = [
     # ---------- Gemini ----------
     {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": None,      "Shares": 60848,   "Cost": 60848},
-    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 0,    "Cost": 0},
     {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "3231.TW", "Shares": 277,    "Cost": 40027},
 
     # ---------- Grok ----------
