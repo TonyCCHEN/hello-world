@@ -42,15 +42,15 @@ data = [
 df = pd.DataFrame(data)
 
 # ==============================
-# Live Price Fetching
+# Live Price Fetching (Stocks Only)
 # ==============================
 @st.cache_data(ttl=300)
 def fetch_prices(tickers):
+    # REMOVED st.toast to fix CacheReplayClosureError
     prices = {}
-    st.toast(f"Fetching prices for: {', '.join(tickers)}...")
     for t in tickers:
         try:
-            # Check if Ticker is TWD (Cash)
+            # Check if Ticker is TWD (Cash) to avoid API errors
             if t == "TWD":
                 prices[t] = 1.0
                 continue
@@ -64,7 +64,7 @@ def fetch_prices(tickers):
         except Exception:
             prices[t] = 0
     return prices
-
+    
 # Get unique tickers (excluding TWD placeholders if needed)
 stock_tickers = df[df["AssetType"] == "Stock"]["Ticker"].unique().tolist()
 price_map = fetch_prices(stock_tickers)
