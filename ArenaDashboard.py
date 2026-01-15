@@ -20,9 +20,11 @@ STARTING_CAPITAL = 100_000
 # ==============================
 data = [
     # ---------- Gemini (The Profit Taker) ----------
-    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 60848,   "Cost": 60848}, 
+    # Update: Bought 10 shares of 2330 @ 1685. Cash reduced by 16,850.
+    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 43998,   "Cost": 43998}, 
     {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "3231.TW", "Shares": 277,     "Cost": 40027},
-
+    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 10,    "Cost": 16850},
+     
     # ---------- Grok (The Hodler) ----------
     {"Trader": "Grok", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 2142, "Cost": 2142},
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 23,    "Cost": 38640},
@@ -31,9 +33,8 @@ data = [
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 19,    "Cost": 19285},
 
     # ---------- Deepseek (The Tech Bull) ----------
-    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 73325, "Cost": 73325},
+    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 80675, "Cost": 80675},
     {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 5,    "Cost": 8450},
-    {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2454.TW", "Shares": 5,    "Cost": 7225},
     {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2317.TW", "Shares": 50,    "Cost": 11375},
 ]
 
