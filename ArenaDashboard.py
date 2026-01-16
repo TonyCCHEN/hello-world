@@ -33,8 +33,8 @@ data = [
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 19,    "Cost": 19285},
 
     # ---------- Deepseek (The Tech Bull) ----------
-    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 80675, "Cost": 80675},
-    {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 5,    "Cost": 8450},
+    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 84135, "Cost": 84135},
+    {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 3,    "Cost": 5190},
     {"Trader": "Deepseek", "AssetType": "Stock", "Ticker": "2317.TW", "Shares": 50,    "Cost": 11375},
 ]
 
