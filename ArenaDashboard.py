@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🧑‍⚖️ AI ARENA: Referee Dashboard")
+st.title("🧑‍⚖️ AI ARENA: Referee Tony's Dashboard, Game On since 2026/01/11")
 st.info("📜 Note: Total Assets may exceed 100k if a team has Realized Profits (Sold stocks).")
 
 STARTING_CAPITAL = 100_000
