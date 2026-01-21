@@ -21,19 +21,19 @@ STARTING_CAPITAL = 100_000
 data = [
     # ---------- Gemini (The Profit Taker) ----------
     # Update: Bought 10 shares of 2330 @ 1685. Cash reduced by 16,850.
-    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 43998,   "Cost": 43998}, 
-    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "3231.TW", "Shares": 277,     "Cost": 40027},
+    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 30498,   "Cost": 30498}, 
+    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "3231.TW", "Shares": 377,     "Cost": 53527},
     {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 10,    "Cost": 16850},
      
     # ---------- Grok (The Hodler) ----------
-    {"Trader": "Grok", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 2142, "Cost": 2142},
+    {"Trader": "Grok", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 21147, "Cost": 21147},
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 23,    "Cost": 38640},
-    {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2317.TW", "Shares": 86,    "Cost": 20054},
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2454.TW", "Shares": 14,    "Cost": 19880},
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 19,    "Cost": 19285},
 
     # ---------- Deepseek (The Tech Bull) ----------
-    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 100851, "Cost": 100851},
+    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 95318, "Cost": 95318},
+    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2317.TW",  "Shares": 25, "Cost": 5525},
 ]
 
 df = pd.DataFrame(data)
