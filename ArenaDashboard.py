@@ -20,22 +20,25 @@ STARTING_CAPITAL = 100_000
 # ==============================
 data = [
     # ---------- Gemini (The Profit Taker) ----------
-    # Update: Bought 10 shares of 2330 @ 1685. Cash reduced by 16,850.
-    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 30498,   "Cost": 30498}, 
+     # Update Jan 28: SOLD 5 shares of 2330 @ 1805. Realized +600 Profit.
+    # Cash: 30,498 + 9,025 = 39,523
+    # TSMC Shares: 10 - 5 = 5
+    # TSMC Cost: 16,850 / 2 = 8,425
+    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 39523,   "Cost": 39523}, 
     {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "3231.TW", "Shares": 377,     "Cost": 53527},
-    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 10,    "Cost": 16850},
-     
+    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 5,       "Cost": 8425},
+    
     # ---------- Grok (The Hodler) ----------
-    {"Trader": "Grok", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 28387, "Cost": 28387},
+    {"Trader": "Grok", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 34687, "Cost": 34687},
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 23,    "Cost": 38640},
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2454.TW", "Shares": 10,    "Cost": 18100},
-    {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 19,    "Cost": 19285},
+    {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 14,    "Cost": 14210},
 
     # ---------- Deepseek (The Tech Bull) ----------
-    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 2212.5, "Cost": 2212.5},
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2317.TW",  "Shares": 55, "Cost": 12424.5},
+    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 5392.5, "Cost": 5392.5},
+    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2317.TW",  "Shares": 75, "Cost": 16934.5},
     {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "3034.TW",  "Shares": 135, "Cost": 53527.5},
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2303.TW",  "Shares": 495, "Cost": 33313.5},
+    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2303.TW",  "Shares": 395, "Cost": 26583.5},
 ]
 
 df = pd.DataFrame(data)
