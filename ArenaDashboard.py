@@ -36,10 +36,10 @@ data = [
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 14,    "Cost": 14210},
 
     # ---------- Deepseek (The Tech Bull) ----------
-    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 21797.5, "Cost": 21797.5},
+    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 24869.5, "Cost": 24869.5},
     {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2317.TW",  "Shares": 165, "Cost": 36599.5},
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "3034.TW",  "Shares": 70, "Cost": 27755},
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2303.TW",  "Shares": 195, "Cost": 13291.8},
+    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "3034.TW",  "Shares": 60, "Cost": 23790},
+    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2303.TW",  "Shares": 205, "Cost": 13900},
 ]
 
 df = pd.DataFrame(data)
