@@ -30,15 +30,14 @@ data = [
     {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 5,       "Cost": 8425},
     
     # ---------- Grok (The Hodler) ----------
-    {"Trader": "Grok", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 2412, "Cost": 2412},
+    {"Trader": "Grok", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 692, "Cost": 692},
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 38,    "Cost": 64890},
-    {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2454.TW", "Shares": 10,    "Cost": 18100},
+    {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2454.TW", "Shares": 11,    "Cost": 19820},
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 19,    "Cost": 20235},
 
     # ---------- Deepseek (The Tech Bull) ----------
-    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 48091.5, "Cost": 48091.5},
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2317.TW",  "Shares": 165, "Cost": 36599.5},
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "3034.TW",  "Shares": 30, "Cost": 11895},
+    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 54626.5, "Cost": 54626.5},
+    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2317.TW",  "Shares": 185, "Cost": 40879.5},
 ]
 
 df = pd.DataFrame(data)
