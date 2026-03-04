@@ -25,8 +25,8 @@ data = [
     # Cash: 26,773 + 13,250 = 40,023
     # Wistron Shares: 477 - 100 = 377
     # Wistron Cost: 66,277 - 12,750 = 53,527 (Removing the cost of the rescue batch)
-    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 40023,   "Cost": 40023}, 
-    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "3231.TW", "Shares": 377,     "Cost": 53527},
+    {"Trader": "Gemini", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 27323,   "Cost": 27323}, 
+    {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "3231.TW", "Shares": 477,     "Cost": 66227},
     {"Trader": "Gemini", "AssetType": "Stock", "Ticker": "2330.TW", "Shares": 5,       "Cost": 8425},
     
     # ---------- Grok (The Hodler) ----------
@@ -36,11 +36,7 @@ data = [
     {"Trader": "Grok", "AssetType": "Stock", "Ticker": "2308.TW", "Shares": 14,    "Cost": 14910},
 
     # ---------- Deepseek (The Tech Bull) ----------
-    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 52979, "Cost": 52979},
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2317.TW",  "Shares": 118, "Cost": 28615},
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "3034.TW",  "Shares": 24, "Cost": 9516},    
-    {"Trader": "Deepseek", "AssetType": "Stock",  "Ticker": "2303.TW",  "Shares": 143, "Cost": 9796},
-]
+    {"Trader": "Deepseek", "AssetType": "Cash",  "Ticker": "TWD",       "Shares": 96187, "Cost": 96187}, ]
 
 df = pd.DataFrame(data)
 
